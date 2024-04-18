@@ -11,7 +11,8 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/users/{}".format(user_id)
     response = requests.get(url)
     user = response.json()
-    url = "https://jsonplaceholder.typicode.com/todos?userId={}".format(user_id)
+    url = "https://jsonplaceholder.typicode.com/todos?userId={}".format(
+        user_id)
     response = requests.get(url)
     todos = response.json()
 
