@@ -6,6 +6,7 @@ from sys import argv
 import json
 import requests
 
+
 if __name__ == "__main__":
     user_id = argv[1]
     url = "https://jsonplaceholder.typicode.com/users/{}".format(user_id)
