@@ -2,6 +2,7 @@
 
 """ Basic annotations concat """
 
-def concat(str1: str, str2: str) -> str:
+
+def concat(str1 = "egg", str2 = "shell") -> str:
     """Returns concatenated strings"""
     return str1 + str2
